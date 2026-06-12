@@ -1,0 +1,30 @@
+{
+  "name": "employment-system",
+  "version": "1.0.0",
+  "description": "学生就业信息记录系统",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "init-db": "node server/init_db_exec.sql",
+    "check-data": "node server/check-data.js",
+    "fix-data": "node server/fix-data.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.16.1",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^16.4.7",
+    "element-plus": "^2.14.0",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "multer": "^2.1.1",
+    "mysql2": "^3.22.3",
+    "pdfkit": "^0.18.0",
+    "vue-router": "^5.0.7",
+    "xlsx": "^0.18.5"
+  }
+}
